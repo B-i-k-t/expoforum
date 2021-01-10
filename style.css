@@ -1,0 +1,35 @@
+@font-face {
+    font-family: plumb;
+    src: url(fonts/plumb.ttf);
+}
+
+@font-face {
+    font-family: circe;
+    src: url(fonts/Circe.ttf);
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: circe, sans-serif;
+}
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+/*=== nav ===*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 33px 180px;
+}
+.nav__logo {
+    text-decoration: none;
+    width: 175px;
+    height: 24px;
+}
+.nav__menu {
+    text-decoration: none;
+}
