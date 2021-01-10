@@ -13,17 +13,24 @@ html {
 }
 body {
     font-family: circe, sans-serif;
+    overflow: hidden;
 }
 .container {
     max-width: 1110px;
     margin: auto;
+}
+/*=== header ===*/
+.header{
+    background: url(./img/bgc.png) 50% 50% no-repeat;
+    background-size: cover;
 }
 
 /*=== nav ===*/
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 33px 180px;
+    padding: 33px 180px;
+    align-items: center;
 }
 .nav__logo {
     text-decoration: none;
@@ -31,5 +38,126 @@ body {
     height: 24px;
 }
 .nav__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 586px;
+}
+.nav__menu_item {
     text-decoration: none;
+    font-family: circe;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.nav__menu_item:last-child {
+    margin-right: 0;
+}
+.nav__right {
+    display: flex;
+    justify-content: space-between;
+    width: 172px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.nav__right_pic {
+    width: 20px;
+    height: 18px;
+}
+.nav__right_lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+.nav__right_globe {
+    padding-right: 11px;
+    width: 20px;
+    height: 18px;
+}
+hr {
+    border: 1px solid #FFFFFF;
+    height: 0;
+}
+
+/*=== header__content ===*/
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__title {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-top: 184px;
+}
+.header__caption{
+    font-family: Plumb;
+    font-size: 6.4rem;
+    line-height: 10rem;
+    text-transform: uppercase;
+}
+.header__text {
+    font-family: Circe;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+}
+.header__info {
+    display: flex;
+    font-family: Circe;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+.header__arrow {
+    margin-left: 1rem;
+}
+.header__wrapper {
+    color: #FFFFFF;
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 304px;
+    margin-bottom: 53px;
+}
+.header__wrapper_item {
+    box-sizing: border-box;
+    width: 255px;
+    padding: 30px 0 30px 40px;
+}
+.header__wrapper_item:first-child {
+    margin-bottom: 30px;
+}
+.header__wrapper_item:nth-child(2) {
+    margin-bottom: 30px;
+}
+.header__wrapper_text {
+    font-family: Plumb;
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+    padding-bottom: 15px;
+}
+.header__wrapper_info {
+    display: flex;
+    font-family: Circe;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.bgc__blue {
+    background: #2378FC;
+}
+.bgc__green {
+    background: #30BCC9;
+}
+.bgc__yellow {
+    background: #FFC41E;
+}
+.bgc__red {
+    background: #F6404F;
 }
