@@ -109,9 +109,15 @@ hr {
 }
 .header__info {
     display: flex;
+    text-decoration: none;
+    color: inherit;
     font-family: Circe;
     font-size: 1.6rem;
-    line-height: 2.2rem;
+    line-height: 2.2rem;    
+}
+.header__info:hover, .header__info:focus{
+    text-decoration-line: underline;
+    color: #FFC41E;
 }
 .header__arrow {
     margin-left: 1rem;
@@ -148,6 +154,12 @@ hr {
     font-family: Circe;
     font-size: 1.4rem;
     line-height: 1.9rem;
+    text-decoration: none;
+    color: inherit;
+}
+.header__wrapper_info:focus, .header__wrapper_info:hover {
+    text-decoration-line: underline;
+    color: grey;
 }
 .bgc__blue {
     background: #2378FC;
