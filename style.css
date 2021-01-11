@@ -173,3 +173,33 @@ hr {
 .bgc__red {
     background: #F6404F;
 }
+
+/*=== sidemenu ===*/
+.sidemenu {
+    background: #2378FC;
+}
+.sidemenu__menus {
+    display: flex;
+    justify-content: space-between;
+}
+.sidemenu__list {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin: 75px 0;
+}
+.sidemenu__title {
+    font-family: Plumb;
+    font-size: 3rem;
+    line-height: 3.9rem;
+    letter-spacing: -0.01em;
+    margin-bottom: 15px;
+}
+.sidemenu__item {
+    font-family: Circe;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 15px;
+}
