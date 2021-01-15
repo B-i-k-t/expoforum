@@ -382,6 +382,11 @@ hr {
     line-height: 1.35;
     color: #E0E0E0;
     margin-top: 1rem;
+    text-decoration: none;
+}
+.footer__link:focus, .footer__link:hover {
+    text-decoration: underline;
+    color: #FFC41E;
 }
 .footer__email_text {
     font-family: Circe;
@@ -389,4 +394,16 @@ hr {
     line-height: 1.35;
     color: #E0E0E0;
     padding: 15px 0;
+}
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.footer__app {
+    margin-top: 1rem;
+    max-width: 160px;
+    object-fit: cover;
+    overflow: hidden;
 }
