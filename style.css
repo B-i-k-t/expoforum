@@ -708,7 +708,10 @@ hr {
     }
     .nav__menu {
         visibility: hidden;
+        width: 0;
     }
+
+ 
 }
 
 @media(max-width:500px) {
